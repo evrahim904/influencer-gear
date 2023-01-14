@@ -1,0 +1,155 @@
+/* header style section */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-size: 24px;
+    height: 52px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.header-tool {
+    margin-top: 55px;
+    margin-right: 120px;
+}
+
+.tool {
+    margin-left: 34px;
+}
+
+/* main style section */
+.container {
+    display: flex;
+
+}
+
+.container-info {
+    width: 582px;
+    height: 270px;
+    margin: 115px 200px 170px 120px;
+}
+
+.container-title {
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.container-description {
+    font-size: 16px;
+    width: 500px;
+    height: 60px;
+    margin-top: 16px;
+}
+
+.button {
+    background: #E02C6D;
+    border-radius: 41px;
+    width: 196px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.container-image {
+    width: 440px;
+    height: 414px;
+    margin: 70px 100px 110px 0;
+}
+
+/* company style */
+.company {
+    width: 1110px;
+    height: 110px;
+    margin:70px 165px;
+}
+.company-info{
+    width: 986.47px;
+height: 39.61px;
+padding: 35px 62px;
+}
+.company-image{
+    width: 55.05px;
+height: 31.06px;
+margin-left: 61px;
+}
+/* collection style section
+ ------------------------ */
+ .collection-section{
+    margin: 100px 100px;
+ }
+ .collection-title{
+    width: 262px;
+height: 70px;
+
+margin: 94px 390px 30px ;
+ }
+ .collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+ }
+ .collection-info{
+    width: 329px;
+height: 406px;
+ }
+ .collection-image{
+    width: 300px;
+height: 256px;
+ }
+ .fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+ }
+ 
+ .collection-setup{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+ }
+.collection-prize{
+    font-size: 24px;
+    margin:0;
+}
+.collection-star{
+    margin: 0;
+    width: 122px;
+height: 32px;
+margin-top: 6px;
+}
+.collection-discriiption{
+    font-size: 14px;
+    margin: 0;
+}
+.see-more{
+    text-align: right;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* --------------
+product style section
+--------------- */
+.product{
+    margin: 100px 106px;
+}
+.product-info{
+    display: flex;
+}
+.product-image{
+    width: 404px;
+height: 270px;
+}
+.product-detail{
+    width: 610px;
+height: 224px;
+margin-left: 100px;
+}
+.product-title{
+    font-size: 38px;
+}
+.product-description{
+    font-size: 16px;
+}
